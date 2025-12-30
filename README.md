@@ -28,11 +28,20 @@ This project demonstrates testing the **ARIA Notify API** - a new web standard t
 This project implements the concepts described in the official Cypress blog post:
 [How to test the new ARIA Notify API with Cypress](https://www.cypress.io/blog/how-to-test-the-new-a-notify-api-with-cypress?utm_medium=blog&utm_source=social_media&utm_term=linkedin&utm_content=aria_notify_api)
 
+## 💡 Why Use ARIA Notify?
+
+The ARIA Notify API solves several long-standing issues with "Live Regions":
+
+1.  **No DOM Pollution**: You don't need to inject hidden `<div>` elements just to speak to screen readers.
+2.  **Reliability**: Browser-managed queueing prevents messages from being skipped or interrupting each other.
+3.  **Simpler Mental Model**: It works like a standard notification API (`notify('message')`) rather than the complex "change text in a specific DOM node" pattern.
+4.  **Better Context**: Screen readers can use the element's existing context (like button label) when announcing.
+
 ## 🎥 Demo
 
 Here is a recording of the actual tests running in Cypress:
 
-<video controls src="cypress/videos/aria-notify.cy.js.mp4" width="100%"></video>
+<video controls src="assets/aria-notify-demo.mp4" width="100%"></video>
 
 ## 📦 Prerequisites
 
