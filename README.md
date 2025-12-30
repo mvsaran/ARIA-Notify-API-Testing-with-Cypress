@@ -10,7 +10,6 @@
 
 - [Overview](#overview)
 - [Official Documentation](#official-documentation)
-- [Demo](#demo)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running Tests](#running-tests)
