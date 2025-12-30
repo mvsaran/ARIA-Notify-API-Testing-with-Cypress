@@ -1,0 +1,27 @@
+{
+  "name": "aria-notify-api-testing",
+  "version": "1.0.0",
+  "description": "Testing the ARIA Notify API with Cypress - Demonstrating advanced testing techniques for accessibility features",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "test:chrome:beta": "cypress run --browser chrome:beta",
+    "test:headed": "cypress run --headed --browser chrome:beta",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "aria-notify",
+    "accessibility",
+    "a11y",
+    "testing",
+    "e2e"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.6.2"
+  },
+  "dependencies": {}
+}
